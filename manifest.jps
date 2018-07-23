@@ -1,0 +1,23 @@
+
+type: install
+name: Gogs
+categories: ["apps/content-management"]
+displayName: Gogs
+homepage: https://github.com/HidoraSwiss/manifest-gitea
+logo: https://gitea.io/images/gitea.png
+description: Gogs is a self-hosted Git solution that is guaranteed without any hassle and written in Go.
+ssl: true
+
+nodes:
+  - image: gogs/gogs
+    count: 1
+    cloudlets: 16
+    nodeGroup: cp
+    
+  - nodeType: mysql
+    count: 1
+    cloudlets: 8
+    nodeGroup: sqldb
+
+success: | 
+ **Your environment Gitea has been installed successfully.**
