@@ -3,8 +3,8 @@ type: install
 name: Gogs
 categories: ["apps/content-management"]
 displayName: Gogs
-homepage: https://github.com/HidoraSwiss/manifest-gitea
-logo: https://gitea.io/images/gitea.png
+homepage: https://github.com/HidoraSwiss/manifest-gogs
+logo: https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Gogs-lg.png/768px-Gogs-lg.png
 description: Gogs is a self-hosted Git solution that is guaranteed without any hassle and written in Go.
 ssl: true
 
