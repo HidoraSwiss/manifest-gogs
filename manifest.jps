@@ -1,7 +1,7 @@
 
 type: install
 name: Gogs
-categories: ["apps/content-management"]
+categories: ["apps/project-management", "apps/dev-and-admin-tools"]
 displayName: Gogs
 homepage: https://github.com/HidoraSwiss/manifest-gogs
 logo: https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Gogs-lg.png/768px-Gogs-lg.png
