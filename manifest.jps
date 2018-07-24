@@ -20,4 +20,4 @@ nodes:
     nodeGroup: sqldb
 
 success: | 
- **Your environment Gitea has been installed successfully.**
+ **Your environment Gogs has been installed successfully.**
